@@ -1,0 +1,69 @@
+/* Square.module.scss */
+
+.square {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.light {
+  background-color: #8a8a87ff;
+}
+
+.dark {
+  background-color: #363336ff;
+}
+
+.selected {
+  background-color: #f6f669;
+}
+
+/* Animation keyframes */
+@keyframes fadeScaleIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+/* Possible move: small centered circle with border */
+.possibleMoveIndicator {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  background-color: #6ca0dc88;
+  border: 2px solid black;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  box-sizing: border-box;
+
+  animation: fadeScaleIn 0.3s ease forwards;
+}
+
+/* Capture move indicator: larger red ring */
+.captureMoveIndicator {
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  border: 3px solid red;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  box-sizing: border-box;
+
+  animation: fadeScaleIn 0.3s ease forwards;
+}
