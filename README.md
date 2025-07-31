@@ -8,7 +8,7 @@ quick and dirty for the express purpose of playing against models
 ![Screenshot](./screencap2.png)
 ## Features
 
-you can kinda play. This is about an hour of work
+you can kinda play. This is about an hour of work and the 'model' just palys random white moves
 
 ## TO DO
 
