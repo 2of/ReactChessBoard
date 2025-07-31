@@ -8,6 +8,15 @@ quick and dirty for the express purpose of playing against models
 
 ## Features
 
+you can kinda play. This is about an hour of work
+
+## TO DO
+
+- implement model loading
+- implement castling and en passant
+- implement checks
+
+
 
 
 ## Getting Started
