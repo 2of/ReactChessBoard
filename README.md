@@ -5,7 +5,7 @@ quick and dirty for the express purpose of playing against models
 ## Screenshot
 
 ![Screenshot](./screencap.png)
-
+![Screenshot](./screencap2.png)
 ## Features
 
 you can kinda play. This is about an hour of work
